@@ -25,4 +25,4 @@ jobs:
         run: |
           rsync -avz -e "ssh -o StrictHostKeyChecking=no" \
           ./ \
-          ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/var/www/html/Verna
+          ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/var/www/html/GActions2
